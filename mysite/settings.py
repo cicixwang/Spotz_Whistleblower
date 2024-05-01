@@ -106,13 +106,16 @@ LOGIN_REDIRECT_URL = '/'
 # ACCOUNT_LOGOUT_REDIRECT :- where to redirect when user logout
 ACCOUNT_LOGOUT_REDIRECT = '/'
 
+google_client_id = keys['google_client_id']
+google_secret = keys['google_secret']
+
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'SCOPE': ['profile', 'email'],
         'AUTH_PARAMS': {'access_type': 'online'},
         'APP': {
-            'client_id': "295082424229-b6hjofj8enmupkj2tpt88u9e5asu9aa7.apps.googleusercontent.com",
-            'secret': "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",
+            'client_id': google_client_id,
+            'secret': google_secret,
             'key': ''
         }
     }
