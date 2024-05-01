@@ -1,5 +1,7 @@
 {
     "access_key": "AKIA3FLD5DCW2UQKK7NJ",
     "secret_key": "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",
-    "bucket_name": "spotzbucket"
+    "bucket_name": "spotzbucket",
+    "google_client_id": "295082424229-b6hjofj8enmupkj2tpt88u9e5asu9aa7.apps.googleusercontent.com",
+    "google_secret": "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"
 }
